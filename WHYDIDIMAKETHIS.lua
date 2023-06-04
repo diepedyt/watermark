@@ -122,7 +122,7 @@ pcall(function()
 		
 		end)
 		
-		task.wait(6)
+		
 	end
 	coroutine.wrap(TOXQUW_fake_script)()
 end)
@@ -131,3 +131,5 @@ task.spawn(function()
 	task.wait(20)
 	Main:Destroy()
 end)
+
+task.wait(6)
