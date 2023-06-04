@@ -131,5 +131,3 @@ task.spawn(function()
 	task.wait(20)
 	Main:Destroy()
 end)
-
-task.wait(6)
